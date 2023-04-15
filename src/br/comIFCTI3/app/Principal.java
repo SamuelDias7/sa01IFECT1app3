@@ -14,12 +14,11 @@ public class Principal {
 		Calculo obj = new Calculo();
 		
 		System.out.println("Informe o saldo:");
-		obj.saldo = leia.nextInt();
+		int saldo = leia.nextInt();
+		
+		obj.setSaldo(saldo);
 		
 		obj.Calcular();
-		
-		
-		
 		
 	}
 
